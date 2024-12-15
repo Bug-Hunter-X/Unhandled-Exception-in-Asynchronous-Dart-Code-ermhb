@@ -1,0 +1,3 @@
+# Unhandled Exception in Asynchronous Dart Code
+
+This repository demonstrates a common error in asynchronous Dart code: not handling exceptions properly within a `Future`. The `fetchData` function attempts to fetch data from an API.  If there's a network issue or an error in the API response, the exception is caught, but it's then re-thrown without proper handling.  This can lead to unexpected application behavior or crashes. The solution demonstrates how to properly handle exceptions to prevent this.
